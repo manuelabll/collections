@@ -1,0 +1,194 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden; 
+	overflow-y: hidden;
+    background: url(../img/bg.png);
+    background-size: 100%;
+}
+
+a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 2%;
+  }
+  
+a:hover:not(.active) {
+    color: palevioletred;
+  }
+  
+a.active {
+    color: white;
+    background-color: violet;
+  }
+
+
+  h1{
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    padding-top: 4%;
+    margin-left: 40%;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+	margin-top: 3%;
+	width: 130px;
+	height: 80%;
+	transition: all 0.4s, all 0.4s ease;
+    float:left;
+    opacity: 0.7;
+}
+
+li:hover{
+    width: 400px;
+	transform: width 1s;
+    background-position: left;
+    border-radius: 0px 30px 0px 0px;
+    opacity: 1;
+}
+
+
+.movie1 {
+	background: url(../img/cover/10ti.jpeg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.movie2 {
+	background: url(../img/cover/clueless.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+
+.movie3 {
+	background: url(../img/cover/dd.jpeg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+.movie4 {
+	background: url(../img/cover/ea.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+
+.movie5 {
+	background: url(../img/cover/grease.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.movie6 {
+	background: url(../img/cover/h.jpg);
+    background-size: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.movie7 {
+	background: url(../img/cover/lb.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.movie8 {
+	background: url(../img/cover/mg.png);
+    background-size: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+}
+
+
+
+.movie9 {
+	background: url(../img/cover/cbml.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+.movie10 {
+	background: url(../img/cover/sa.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.movie11 {
+	background: url(../img/cover/mm.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+img{
+    opacity: 0;
+    width: 400;
+    transition: all 0.4s, all 0.4s ease;
+    position: absolute;
+    z-index: 3;
+
+}
+
+img:hover{
+    opacity: 1;
+    margin-top: -100px;
+    transition: all 0.4s, all 0.4s ease;
+    position: absolute;
+    -webkit-filter: drop-shadow(5px 5px 25px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    
+}
